@@ -34,8 +34,8 @@ class Item:
         for item in items:
             Item(
                 name     = item.get('name'),
-                quantity =int(item.get('quantity')),
-                price    =int(item.get('price'))
+                quantity = int(item.get('quantity')),
+                price    = int(item.get('price'))
             ) 
 
 # item1 = Item("bola", 15, 5)
